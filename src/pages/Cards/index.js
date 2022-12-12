@@ -17,18 +17,16 @@ import koffee from '../../assets/koffee.png';
 import lojay from '../../assets/lojay.png';
 import hero from '../../assets/hero.png';
 
-;
-
 
 function Cards() {
   return (
     <>
     <Hero >
-      <img src={hero} width='100%' height='100%'/>
+      <img src={hero}/>
     </Hero>
       {/* Section 1 */}
       <CardsWrap>
-        <Title>Welcome back:</Title>
+        <Title>Welcome back!</Title>
         <InlineCards>
           <Card>
             
@@ -116,7 +114,7 @@ function Cards() {
       </CardsWrap>
       {/* Section 2 */}
       <CardsWrap>
-        <Title>Welcome to the weekend;;;</Title>
+        <Title>Welcome to the weekend!!</Title>
         <InlineCards>
           {/* Card 1 */}
           <Card>
@@ -222,4 +220,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Cards; 

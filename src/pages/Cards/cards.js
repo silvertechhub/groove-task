@@ -98,6 +98,15 @@ export const Button = styled.div`
   }
 `;
 export const Hero = styled.div`
-width: 1580px;
+width: 60vw;
 height: 255px;
+position: relative;
+`
+export const HeroImg = styled.img`
+width: 60%;
+height: 100%;
+position: absolute;
+top:0;
+left: 0;
+object-fit: cover;
 `
